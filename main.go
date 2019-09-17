@@ -88,6 +88,8 @@ func traertitulos(c *gin.Context) {
 	c.JSON(http.StatusOK, titulos)
 }
 
+///hola a todos
+
 func traeritems(c *gin.Context) {
 	item := c.Param("item")
 	db, _ := sql.Open("sqlite3", "./dbs/"+ar_clase+".db")
