@@ -1,0 +1,3 @@
+@font-face {font-family: "Cooper"; src: url("public/fonts/cooper.ttf)")}
+.fondo {font-family: "Cooper"; color: white; font-size: 4em}
+.ani {animation-duration: 1s; margin: 2px }

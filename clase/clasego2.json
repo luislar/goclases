@@ -1,0 +1,40 @@
+{
+  "nombre": "GO!! De Sencillo a Ligero",
+  "paginas": 2,
+  "items": [
+      {
+        "titulo" : "Que es GO!! (Golang)",
+        "item": [
+          {
+            "texto" : "Es un lenguaje recurente",
+            "tipo": "texto",
+            "sub": "no",
+            "animacion": "zoomIn"
+          },
+          {
+            "texto" : "Tiene recolecion de residuos",
+            "tipo": "texto",
+            "sub": "no",
+            "animacion": "zoomIn"
+          }
+        ]
+      },
+      {
+        "titulo" : "Porque es necesario Apreder",
+        "item":[
+          {
+            "texto" : "Porque es veloz",
+            "tipo": "texto",
+            "sub": "no",
+            "animacion": "zoomIn"
+          },
+          {
+            "texto" : "Tiene Gorutinas",
+            "tipo": "texto",
+            "sub": "no",
+            "animacion": "zoomIn"
+          }
+        ]
+      }
+  ]
+}

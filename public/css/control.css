@@ -1,0 +1,97 @@
+@font-face {font-family: "Ubuntu"; src: url("/public/fonts/Ubuntu-R.ttf");}
+@font-face {font-family: "Barbaro"; src: url("/public/fonts/OdibeeSans.ttf");}
+
+body {margin: 0; padding: 3px}
+
+.todo {padding: 1px; 
+  box-shadow: 0px 0px 0px 2px silver; 
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 65px);
+}
+
+.clase {margin: 5px auto; 
+  text-align: center; 
+  border-radius: 3px; 
+  margin: 0px; 
+  font-size: .9em; 
+  color: white;
+  font-family: "Ubuntu";
+  padding-top: 4px;
+  height: 24px;
+}
+
+.box {box-shadow: 0px 0px 0px 1px silver; 
+  padding: 1px; 
+  border-radius: 5px; 
+  display: flex; 
+  margin: 2px 2px 1px 2px;
+  height: 33px
+}
+
+.titulos {height: 33px; 
+  border-radius: 5px 0px 0px 5px; 
+  flex-grow: 1;
+  font-family: 'Barbaro';
+  font-size: 1.2em
+}
+.traer { height: 33px; 
+  border: 1px solid grey; 
+  margin-left: 2px; 
+  border-radius: 0px 3px 3px 0px;
+  font-family: 'Barbaro';
+  font-size: 1em
+}
+.traer:active {
+  background: goldenrod;
+  transition-duration: 1s lineal;
+}
+
+.ant, .sig {height: 25px; 
+  border: 1px solid grey; 
+  margin-left: 2px; 
+}
+.sig { margin-left: 3px; }
+
+.btn {padding: 3px 3px 3px 3px; 
+    border: none;
+    margin-top: 1px; 
+    box-shadow: 0px 0px 0px 1px black; 
+    background: rgba(50,50,50.5);
+    
+}
+
+.btn:active {
+    background: goldenrod;
+    transition-duration: 1s lineal;
+}
+
+.contenido {box-shadow: 0px 0px 0px 1px silver; 
+  padding: 2px; 
+  border-radius: 3px; 
+  background: rgba(0, 0,0, .5);
+  margin: 2px 2px 1px 2px;
+  flex-grow: 1;
+}
+
+.item {width: calc(100% - 4px);
+  border: none;
+  box-shadow: 0px 0px 0px 1px silver;
+  margin: 2px;
+  border-radius: 3px; 
+  min-height: 25px;
+  text-align: left;
+  padding-left: 3px;
+  font-family: 'Barbaro';
+  font-size: 1em;
+ 
+
+}
+
+.comandos {box-shadow: 0px 0px 0px 1px silver; 
+  padding: 2px; 
+  border-radius: 3px; 
+  display: flex; 
+  margin: 2px 2px 1px 2px;
+}

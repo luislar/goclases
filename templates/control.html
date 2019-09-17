@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link  rel="shortcut icon" href="/public/icon.ico">
+    <link rel="stylesheet" href="/public/css/themes.css">
+    <link rel="stylesheet" href="/public/css/control.css">
+ 
+    
+    <script src="/public/js/jquery.js"></script>
+    
+    <title>{{.title}}</title>
+</head>
+<body>
+    <div class="todo">
+        <h1 class="clase th1">GO!! - De Sencillo a Veloz</h1>
+        <div class="box">
+            <select class="titulos th2"></select>
+            <a  onclick="Anterior()"> <img class="btn ant" src="/public/img/arrow-68-32.png" alt=""> </a> 
+            <a  onclick="Siguiente()"> <img class="btn sig" src="/public/img/arrow-67-32.png" alt=""> </a>  
+            <button class="traer th3">Traer</button>
+        </div>
+        <div class="contenido">
+                <button class="item th1" onclick="Enviar('Es un lenguaje de programación de código abierto')">Es un lenguaje de programación de código abierto</button>
+                <button class="item th1" onclick="Enviar('Creado por los ingenieros de Google Robert Griesemer, Rob Pike, and Ken Thompson. ')">Creado por los ingenieros de Google Robert Griesemer, Rob Pike, and Ken Thompson. </button>
+        </div>
+        <div class="comandos">
+            <button class="th2" >Hola</button>
+        </div>
+       
+    </div>
+
+    <script src="/public/js/control.js"></script>
+
+</body>
+
+</html>
